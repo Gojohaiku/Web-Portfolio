@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    margin-right: 42px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    text-orientation: capitalize;
+}
+
+.content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 35%;
+    transform: translateY(-50%); 
+}
+
+.content h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 90px;
+}
+
+.content h3 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.content h4 {
+    color: #f9004d;
+    letter-spacing: 2px;
+    padding: 22px;
+    font-size: 42px;
+}
+
+#about {
+    width: 100%;
+    height: 95vh;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.about img {
+    height: auto;
+    width: 10px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+#contact-me {
+    width: 100%;
+    height: 500px;
+    background: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact-me p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+#contact-me .button-two {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+#footer {
+    background-color: #101010;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+#footer a {
+    color: #f9004d;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+#footer span {
+    color: #ffffff;
+}
