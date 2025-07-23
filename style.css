@@ -6,7 +6,7 @@
 }
 
 .hero {
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-color: black;
 }
@@ -21,7 +21,7 @@ nav {
 
 .logo {
     color: white;
-    font-size: 40px;
+    font-size: 60px;
     letter-spacing: 1px;
     cursor: pointer;
 }
@@ -41,7 +41,7 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 32px;
     text-orientation: capitalize;
 }
 
@@ -56,12 +56,12 @@ nav ul li a {
 .content h1 {
     color: white;
     margin: 20px 0px 20px;
-    font-size: 90px;
+    font-size: 124px;
 }
 
 .content h3 {
     color: white;
-    font-size: 35px;
+    font-size: 54px;
     margin-bottom: 50px;
 }
 
@@ -69,7 +69,7 @@ nav ul li a {
     color: #f9004d;
     letter-spacing: 2px;
     padding: 22px;
-    font-size: 42px;
+    font-size: 74px;
 }
 
 #about {
@@ -77,35 +77,38 @@ nav ul li a {
     height: 95vh;
     padding: 100px 0px;
     background-color: #191919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.about img {
+.profile-image{
+    width: 250px;
     height: auto;
-    width: 10px;
+    border-radius: 50%;
+    margin-right: 40px;
 }
 
 .about-text {
-    width: 550px;
+    color: white;
+    text-align: left;   
 }
 
 .main {
     width: 1130px;
-    max-width: 95%;
-    margin: 0 auto;
+    width: 90%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .about-text h2 {
-    color: white;
     font-size: 75px;
-    text-transform: capitalize;
     margin-bottom: 20px;
 }
 
 .about-text h5 {
-    color: white;
     letter-spacing: 2px;
     font-size: 22px;
     margin-bottom: 25px;
@@ -113,17 +116,16 @@ nav ul li a {
 }
 
 .about-text p {
-    color: #fcfc;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
-    text-align: justify;
 }
 
 #contact-me {
     width: 100%;
     height: 500px;
+    padding: 40vh;
     background: black;
     display: flex;
     align-items: center;
@@ -169,4 +171,10 @@ nav ul li a {
 
 #footer span {
     color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    .profile-image {
+        margin-bottom: 30px;    
+    }
 }
